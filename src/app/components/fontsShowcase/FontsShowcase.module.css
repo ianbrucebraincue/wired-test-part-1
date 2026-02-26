@@ -1,0 +1,83 @@
+.wrapper {
+  padding: 60px 24px;
+}
+
+.pageTitle {
+  margin-bottom: 40px;
+}
+
+.block {
+  margin-bottom: 80px;
+}
+
+.blockTitle {
+  margin-bottom: 20px;
+}
+
+.samples {
+  display: grid;
+  gap: 12px;
+}
+
+/* Font Families */
+.apercu {
+  font-family: "Apercu", sans-serif;
+}
+
+.breve {
+  font-family: "BreveText", serif;
+}
+
+.wiredDisplay {
+  font-family: "WiredDisplay", sans-serif;
+}
+
+.wiredMono {
+  font-family: "WiredMono", monospace;
+}
+
+/* Weights */
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semiBold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extraBold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Wired Display Styling */
+.displayLarge {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Mono utilities */
+.thin {
+  font-weight: 100;
+}
