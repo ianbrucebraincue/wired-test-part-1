@@ -19,16 +19,15 @@
   position: relative;
 }
 
-/* Content that scrolls over */
 .articleContent {
   position: relative;
-  margin-top: -100vh; /* pulls content upward */
+  margin-top: -100vh;
   background: white;
   z-index: 2;
 }
 
-.contentInner {
-  padding: 120px 24px;
-  max-width: 900px;
+.inner {
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0 105px;
 }

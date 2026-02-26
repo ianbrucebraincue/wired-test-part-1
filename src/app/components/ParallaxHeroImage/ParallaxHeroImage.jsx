@@ -1,4 +1,4 @@
-import styles from "./HeroImage.module.css";
+import styles from "./ParallaxHeroImage.module.css";
 
 export default function HeroImage() {
   return (
