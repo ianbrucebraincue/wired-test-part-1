@@ -1,37 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WIRED Web Developer Technical Test
 
-## Getting Started
+## Part 1 — MADE IN CHINA Landing Page
 
-First, run the development server:
+---
+
+## 🛠 Available Scripts
+
+This project includes the two required npm scripts:
+
+### ▶️ `npm run start`
+
+Runs the development server at:
+
+http://localhost:3000
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Used for local development with live updates.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🏗 `npm run build`
 
-## Learn More
+Generates a static production build and outputs files to:
 
-To learn more about Next.js, take a look at the following resources:
+```
+/dist
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The `/dist` directory contains fully static assets ready for deployment.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Overview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# wired-test
+This repository contains my submission for the **WIRED Web Developer Technical Test**.
+
+The objective was to recreate a consolidated version of WIRED’s recent “MADE IN CHINA” landing page using:
+
+- Node.js  
+- React  
+- Next.js
+
+---
+
+### Animation
+
+For the **BigStat count-up animation**, I used:
+
+https://www.reactbits.dev/text-animations/count-up
+
+This provides a lightweight, performant number animation while keeping the component logic clean and readable.
+
+All animation usage was kept intentional and minimal to maintain performance and avoid unnecessary complexity.
